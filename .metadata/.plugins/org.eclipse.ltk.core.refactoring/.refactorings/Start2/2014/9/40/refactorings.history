@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Przekształć zmienną lokalną Drugi.main().odczyt w Drugi.main() w pole&#x0D;&#x0A;- Original project: &apos;Start2&apos;&#x0D;&#x0A;- Element oryginalny: Drugi.main().odczyt&#x0D;&#x0A;- Nazwa pola: odczyt&#x0D;&#x0A;- Inicjuj pole w metodzie&#x0D;&#x0A;- Zadeklarowana widoczność: private&#x0D;&#x0A;- Deklaruj pole static" description="Przekształć zmienną lokalną odczyt w pole" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{Drugi.java" name="odczyt" selection="168 31" stamp="1411987683179" static="true" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Drugi {
+
+	public static void main(String[] args) {
+		System.out.println ("Podaj swoje imiê: ");
+		String imie;
+		Scanner odczyt = new Scanner(System.in);
+		imie = odczyt.nextLine();
+		System.out.println ("Witaj"+imie);
+
+	}
+
+}

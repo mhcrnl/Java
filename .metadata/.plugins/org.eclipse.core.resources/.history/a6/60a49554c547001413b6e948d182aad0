@@ -4,9 +4,6 @@ public class pierwszy {
 
 	public static void main(String[] args) {
 		System.out.println ("Zaczynamy programowanie w Java");
-		System.out.print ("Podaj wartoœæ zmiennej: ");
-		
-		Scanner liczba;
 	}
 
 }

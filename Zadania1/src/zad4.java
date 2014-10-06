@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class zad3 {
+public class zad4 {
 
 	private static Scanner odczyt;
 	static int d1,d2,d3;
@@ -23,10 +23,17 @@ public class zad3 {
 		System.out.println ("Podaj poczatek przedzialu: ");
 		odczyt = new Scanner(System.in);
 		d1 = odczyt.nextInt();
-		if (poda(d1))
-			System.out.println ("Liczba pierwsza");
-		else
-			System.out.println ("Liczba z³o¿ona");
+		System.out.println ("Podaj koniec przedzialu: ");
+		odczyt = new Scanner(System.in);
+		d2 = odczyt.nextInt();
+		for(int i=d1;i<=d2;i++)
+		{
+			System.out.print (i+" to ");
+			if (poda(i))
+				System.out.println ("Liczba pierwsza");
+			else
+				System.out.println ("Liczba z³o¿ona");
+		}
 	}
 
 }

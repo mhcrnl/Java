@@ -15,7 +15,7 @@ public class zad6 {
 		System.out.println ("Podaj 3 odcinek: ");
 		odczyt = new Scanner(System.in);
 		c = odczyt.nextInt();
-		if (((a^2+b^2-c^2)*(a^2+c^2-b^2)*(b^2+c^2-a^2))==0)
+		if (((a*a+b*b-c*c)*(a*a+c*c-b*b)*(b*b+c*c-a*a))==0)
 			System.out.println ("Jest to trójk¹t prostok¹tny");
 		else
 			System.out.println ("Nie jest to trójk¹t prostok¹tny");

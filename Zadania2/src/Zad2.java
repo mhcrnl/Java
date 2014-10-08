@@ -16,14 +16,14 @@ public class Zad2 {
 		odczyt = new Scanner(System.in);
 		c = odczyt.nextInt();
 		if (a>b)
-			if (a>c)
-				System.out.println ("Najwiêksza liczba: "+a);
+			if (a<c)
+				System.out.println ("Œrodkowa liczba: "+a);
 			else
-				System.out.println ("Najwiêksza liczba: "+c);
-		else if (b>c)
-			System.out.println ("Najwiêksza liczba: "+b);
+				System.out.println ("Œrodkowa liczba: "+c);
+		else if (b<c)
+			System.out.println ("Œrodkowa liczba: "+b);
 			else
-				System.out.println ("Najwiêksza liczba: "+c);
+				System.out.println ("Œrodkowa liczba: "+c);
 	}
 
 }

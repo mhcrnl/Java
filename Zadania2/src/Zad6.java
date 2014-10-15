@@ -17,13 +17,13 @@ public class Zad6 {
 		c = odczyt.nextInt();
 		d = b*b+4*a*c;
 		if ( d>0 ){
-			x1 = 
+			x1 = 0;
 		}
 		else if ( d==0 ){
 			
 		}
 		else
-			System.out.println ("Brak rozwi¹zañ")
+			System.out.println ("Brak rozwi¹zañ");
 	}
 
 }

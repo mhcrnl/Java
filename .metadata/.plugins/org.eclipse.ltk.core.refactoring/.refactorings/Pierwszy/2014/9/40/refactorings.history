@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Wstaw zmienną lokalną pierwszy.main().odczyt w pierwszy.main()&#x0D;&#x0A;- Original project: &apos;Pierwszy&apos;&#x0D;&#x0A;- Element oryginalny: pierwszy.main().odczyt" description="Wstaw zmienną lokalną odczyt" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;{pierwszy.java" selection="217 32" stamp="1411987241431" version="1.0"/>
-</session>

@@ -11,8 +11,10 @@ public class Zad3 {
 				System.out.println ("Podaj liczbe: ");
 				odczyt = new Scanner(System.in);
 				a = odczyt.nextInt();
-				suma+=a;
-				System.out.println (suma);
+				if(a%3!=0){
+					suma+=a;
+					System.out.println (suma);
+				}
 			}
 		}
 

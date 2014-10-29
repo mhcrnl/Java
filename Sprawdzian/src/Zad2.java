@@ -6,7 +6,7 @@ public class Zad2 {
 	public static int a,b;
 
 	public static void main(String[] args) {
-		System.out.println ("Podaj ocenê: ");
+		System.out.println ("Podaj ocenÄ™: ");
 		odczyt = new Scanner(System.in);
 		a = odczyt.nextInt();
 		switch(a){
@@ -15,7 +15,7 @@ public class Zad2 {
 			break;
 		}
 		case 2:{
-			System.out.println ("Dopuszczaj¹ca");
+			System.out.println ("DopuszczajÅ¡ca");
 			break;
 		}
 		case 3:{
@@ -31,8 +31,11 @@ public class Zad2 {
 			break;
 		}
 		case 6:{
-			System.out.println ("Celuj¹ca");
+			System.out.println ("CelujÅ¡ca");
 			break;
+		}
+		default:{
+			System.out.println ("To nie jest ocena!");
 		}
 			
 		}
